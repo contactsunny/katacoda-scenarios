@@ -30,7 +30,13 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "vscode",
+    "terminals": [
+      {
+        "name": "Terminal",
+        "target": "host01"
+      }
+    ]
   },
   "backend": {
     "imageid": "java"
