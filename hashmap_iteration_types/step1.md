@@ -6,6 +6,10 @@ We'll start the scenario by cloning a Github repo that I've already readied. Thi
 
 You should now see the code in your editor.
 
+Before we can run any command on the code, we'll have to change the working directory to where our code is. For this, we'll run the following command:
+
+`cd HashMap_Iteration_Types`{{execute}}
+
 Let's now build the project, run the following command:
 
 `mvn clean install`{{execute}}
